@@ -63,7 +63,11 @@ compareTwoParsed();
 const displayLinksToCheck = () => {
 	console.log('');
 	for (var i = 0; i < matchRemaining.length; i++) {
-		console.log(`Links To Double Check: ${colors.yellow(matchRemaining[i])}`);
+		console.log(
+			`${emoji.emojify(
+				':see_no_evil: '
+			)} Links To Double Check: ${colors.yellow(matchRemaining[i])}`
+		);
 	}
 };
 
